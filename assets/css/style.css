@@ -13,12 +13,9 @@ body {
     max-width: 800px;
     min-height: 100vh;
     margin: 0 auto;
-    padding: 0 2em;
-    border-left: 0.1em solid rgb(0, 0, 0);
-    border-right: 0.1em solid rgb(0, 0, 0);
+    border: 1px solid rgba(0, 0, 0, 1);
     display: flex;
     flex-direction: column;
-    background-color: rgba(0, 0, 0, 0.1);
 }
 
 /* WEBKIT SCROLLBAR */
@@ -39,7 +36,9 @@ body::-webkit-scrollbar-thumb {
 }
 
 /* STYLING HEADINGS */
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-weight: 800;
 }
 
@@ -53,7 +52,7 @@ header {
     top: 0;
     background-color: rgba(0, 0, 0, 0.5);
     color: rgba(255, 255, 255, 1);
-    padding: 0.5em;
+    padding: 0.5rem 1rem;
 }
 
 /* SITE HEADING */
@@ -83,8 +82,9 @@ header {
 
 /* MAIN */
 main {
-    padding: 2em 0;
+    padding: 2rem 1rem;
     flex-grow: 1;
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
 /* FOOTER */
@@ -92,6 +92,79 @@ footer {
     font-size: 1em;
     background-color: rgba(0, 0, 0, 0.5);
     color: rgba(255, 255, 255, 1);
-    padding: 0.5em;
-    margin-bottom: 0.3em;
+    padding: 0.5rem 1rem;
+}
+
+/* SECTIONS */
+section {
+    margin: 50px 0;
+}
+
+/* ARTICLES */
+article {
+    margin: 5px 0;
+}
+
+/* BIG NEWS SECTION IN HOME PAGE */
+.big_news {
+    margin-top: 0;
+}
+
+/* NEWS SECTION */
+.news_section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* NEWS SECTION HEADING */
+.news_section_heading {
+    color: rgba(0, 0, 0, 1);
+}
+
+/* NEWS ARTICLE */
+.news_article {
+    display: block;
+}
+
+/* NEWS ARTICLE HEADING */
+.news_article_heading {
+    color: rgba(255, 57, 255, 1);
+    margin-bottom: 1rem;
+}
+
+/* NEWS ARTICLE FIGURE */
+.news_article_figure {
+    float: left;
+    width: 100%;
+    max-width: 250px;
+    margin-right: 1em;
+}
+
+/* NEWS ARTICLE IMG */
+.news_article_image {
+    width: 100%;
+}
+
+/* NEWS ARTICLE FIGCAPTION */
+.news_article_figcaption {
+    font-size: 0.9em;
+}
+
+/* NEWS ARTICLE DESCRIPTION */
+.news_article_description {
+    font-size: 1em;
+}
+
+/* NEWS READ ALL LINK TEXT */
+.news_read_all_link {
+    text-decoration: none;
+}
+.news_read_all_link::before {
+    content: '\1F449';
+}
+
+/* KEEP TEXT TOGETHER */
+.nosplit {
+    text-wrap: nowrap;
 }
