@@ -265,3 +265,57 @@ caption {
     background-color: rgba(255, 255, 0, 0.5);
 }
 /* ABOUT US PAGE STYLE END */
+/* CONTACT PAGE START */
+.contact_form {
+    width: 100%;
+    max-width: 500px;
+}
+
+form {
+    /* padding: 1rem; */
+}
+
+fieldset {
+    border-color: blueviolet;
+    border-radius: 5px;
+}
+
+label {
+    font-weight: 600;
+}
+
+input, textarea {
+    width: 100%;
+    font: inherit;
+    border-color: rgba(0, 0, 0, 1);
+    border-radius: 5px;
+    padding: 0.3em;
+    margin-bottom: 1em;
+}
+
+fieldset {
+    padding: 1rem;
+}
+
+button {
+    padding: 0.3rem 0.7rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 1);
+}
+
+.form_action_buttons {
+    margin-top: 10px;
+    text-align: right;
+}
+
+.submit_button {
+    background-color: rgba(0, 0, 255, 1);
+}
+
+.reset_button {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* CONTACT PAGE END */
