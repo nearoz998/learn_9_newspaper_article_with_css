@@ -16,6 +16,7 @@ body {
     border: 1px solid rgba(0, 0, 0, 1);
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 
 /* WEBKIT SCROLLBAR */
@@ -232,3 +233,35 @@ caption {
     max-width: 500px;
 }
 /* WEATHER AND POLITICS PAGE STYLE END */
+
+/* ABOUT US PAGE STYLE START */
+.about_us {
+    max-width: 70%;
+}
+
+.aside_call_advert {
+    position: absolute;
+    top: 25vh;
+    right: 0;
+    max-width: 30%;
+   max-height: 300px;
+   overflow-y: scroll;
+   background-color: rgba(99, 199, 255, 1);
+   padding: 0.3em;
+   overflow-wrap: break-word;
+}
+
+.aside_call_advert::-webkit-scrollbar {
+    width: 1rem;
+}
+
+.aside_call_advert::-webkit-scrollbar-track {
+    border: 2px solid rgba(255, 57, 255, 1);
+    border-radius: 3rem;
+}
+
+.aside_call_advert::-webkit-scrollbar-thumb {
+    width: 1rem;
+    background-color: rgba(255, 255, 0, 0.5);
+}
+/* ABOUT US PAGE STYLE END */
