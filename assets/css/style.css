@@ -182,6 +182,7 @@ caption {
 /* NEWS ARTICLE IMG */
 .news_article_image {
     width: 100%;
+    height: auto;
 }
 
 /* NEWS ARTICLE FIGCAPTION */
@@ -209,6 +210,7 @@ caption {
     text-wrap: nowrap;
 }
 
+/* SPORTS PAGE STYLES */
 .news_article_figure_in {
     max-width: 400px;
 }
@@ -223,4 +225,10 @@ caption {
     text-align: center;
 }
 
-/* SPORTS PAGE END */
+/* SPORTS PAGE STYLES END */
+
+/* WEATHER AND POLITICS PAGE STYLE START */
+.news_article_figure_in_weather, .news_article_figure_in_politics {
+    max-width: 500px;
+}
+/* WEATHER AND POLITICS PAGE STYLE END */
